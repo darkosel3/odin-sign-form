@@ -1,6 +1,6 @@
 @font-face {
     font-family: OdinFont;
-    src: url(../fonts/Norse-Bold.otf);
+    src: url(./fonts/Norse-Bold.otf);
 }
 
 * {
@@ -34,7 +34,7 @@ h4 {
 .left {
     color: white;
     width: 35vw;
-    background-image: url(../images/Halie.jpg);
+    background-image: url(./images/Halie.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
