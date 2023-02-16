@@ -30,7 +30,7 @@
                     realize your deepest dreams.<br>Sign up <i>now</i> to get started<br><br></h4>
                 <h4>You <i>know</i> you want to.</h4>
             </div>
-            <form action="#" method="get" class="div-form" id="form1">
+            <form action="" class="div-form" id="form1">
                 <div class="second">
                     <div class="text">
                         <h3>Let's do this!</h3>
@@ -42,12 +42,13 @@
                                 <input type="text" id="fname" name="fname"><br>
                             </div>
                             <div class="eachInput">
-                                <label for="lname">EMAIL:</label><br>
-                                <input type="text" id="lname" name="lname"><br>
+                                <label for="email">EMAIL:</label><br>
+                                <input type="email" id="email" name="email"><br>
                             </div>
                             <div class="eachInput">
                                 <label for="lname">PASSWORD:</label><br>
-                                <input type="text" id="lname" name="lname"><br><br>
+                                <input type="password" id="password" name="password"><br>
+                                <p id="error"></p><br>
                             </div>
                         </div>
                         <div class="rightInput">
@@ -60,8 +61,8 @@
                                 <input type="text" id="lname" name="lname"><br>
                             </div>
                             <div class="eachInput">
-                                <label for="lname">CONFIRM PASSWORD:</label><br>
-                                <input type="text" id="lname" name="lname"><br><br>
+                                <label for="confirmPassword">CONFIRM PASSWORD:</label><br>
+                                <input type="password" id="confirmPassword" name="confirmPassword"><br><br>
                             </div>
 
                         </div>
@@ -70,7 +71,8 @@
                 </div>
                 <div class="third">
                     <div>
-                        <button type="submit" form="form1" value="Submit">Create Account</button>
+                        <button type="submit" onclick="matchPassword(event)">Create
+                            Account</button>
                         <div class="question-acc">
                             <h5>Already have an Account? <a class="log-in" href="#">Log In</a></h5>
                         </div>

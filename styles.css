@@ -189,3 +189,13 @@ footer a {
 footer p {
     font-size: 12px;
 }
+
+input:invalid {
+    border: 1px solid red;
+}
+
+#error {
+    font-family: 'Lato';
+    font-size: 8px;
+    color: red;
+}
